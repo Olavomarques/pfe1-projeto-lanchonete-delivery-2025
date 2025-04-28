@@ -120,4 +120,4 @@ A prova deve ser entregue pelo gitpages (OBRIGATÓRIO).
 ]
 ```
 #### Obs: Os wireframes são apenas sugestões, você pode criar o layout que desejar, desde que atenda aos requisitos funcionais e não funcionais.
-Use sua criatividade e faça um layout bonito e funcional.
+Use sua criatividade e faça um layout bonito e funcional
