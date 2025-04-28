@@ -1,13 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lanchonete Delivery</title>
+    <title>Pedidos Finalizados</title>
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/pedidos.css">
+    <link rel="shortcut icon" href="../assets/check.png" type="image/x-icon">
 </head>
 <body>
+    <header>
+        <h1>Lanchonete Delivery</h1>
+        <button onclick="window.location.href='home.html'">Voltar</button>
+    </header>
+
+    <main>
+        <div class="table-container">
+            <table id="tabelaPedidos">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Cliente</th>
+                        <th>Endereço</th>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Ingredientes</th>
+                        <th>Data</th>
+                        <th>Hora Pedido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </div>
+    </main>
     
+    <footer>
+        <h2>Feito por Olavo Marques</h2>
+    </footer>
+
+    <script src="../scripts/pedidos.js"></script>
 </body>
-<script src="../scripts/pedidos.js"></script>
 </html>

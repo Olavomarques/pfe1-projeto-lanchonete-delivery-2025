@@ -1,13 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lanchonete Delivery</title>
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
 </head>
 <body>
-    
+    <header>
+        <h1>Lanchonete Delivery</h1>
+        <button onclick="window.location.href='pedidos.html'">Concluídos</button>
+    </header>
+
+    <main>
+        <section class="cadastro">
+            <input type="text" id="cliente" placeholder="Cliente">
+            <input type="text" id="endereco" placeholder="Endereço">
+            <select id="produto">
+                <option value="">Selecione um Produto</option>
+            </select>
+            <button onclick="gerarPedido()">Gerar Pedido</button>
+        </section>
+
+        <section class="pedidos">
+            <div class="em-execucao">
+                <h2>Em execução</h2>
+                <div id="emExecucao">
+                    <img src="../assets/icone.png" alt="Em execução" width="50">
+                </div>
+            </div>
+            <div class="a-caminho">
+                <h2>A caminho</h2>
+                <div id="aCaminho">
+                    <img src="../assets/check.png" alt="A caminho" width="50">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Feito por Olavo Marques</h2>
+    </footer>
+
+    <script src="../scripts/home.js"></script>
 </body>
-<script src="../scripts/home.js"></script>
 </html>
